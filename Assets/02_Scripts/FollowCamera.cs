@@ -9,7 +9,7 @@ public class FollowCamera : MonoBehaviour
     [SerializeField] private Vector2 offset = new Vector2(0.0f, 1.0f);
     [SerializeField] private float followSpeed = 5.0f;
     private bool followX = true;
-    private bool istrue = true;
+    private bool istrue = false;
 
     private void LateUpdate()
     {
