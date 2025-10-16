@@ -10,6 +10,7 @@ public class FollowCamera : MonoBehaviour
     [SerializeField] private float followSpeed = 5.0f;
     private bool followX = true;
     private bool isMaintrue = true;
+    private bool istrue = false;
 
     private void LateUpdate()
     {
