@@ -11,6 +11,7 @@ public class FollowCamera : MonoBehaviour
     private bool followX = true;
     private bool isMaintrue = true;
     private bool istrue = false;
+    private bool isCamera = true;
 
     private void LateUpdate()
     {
